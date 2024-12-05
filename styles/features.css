@@ -1,0 +1,24 @@
+/* Features Section */
+.features-section > .column-wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.features-section > .column-wrapper > .column {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 0.05rem solid #666766;
+    padding: 0.7rem;
+    color: #fffefe;
+    text-align: center;
+    font-size: 1.3rem;
+    font-weight: 500;
+    background-color: #36393e;
+}
+
+.features-section > .column-wrapper > .column > .column-text {
+    display: inline-block;
+}
